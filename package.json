@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "export": "next export",
     "lint": "next lint",
     "tailwindBuild": "tailwindcss -i ./css/input.css -o ./css/main.css",
     "tailwindWatch": "tailwindcss -i ./css/input.css -o ./css/main.css --watch"
