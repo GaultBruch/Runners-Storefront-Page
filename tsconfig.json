@@ -23,7 +23,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "public/javascript/script.js"  ],
   "exclude": [
     "node_modules"
   ]

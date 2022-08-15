@@ -16,6 +16,7 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@iconify/react": "^3.2.2",
     "@types/node": "^18.7.1",
     "@types/react": "^18.0.17",
     "autoprefixer": "^10.4.8",
