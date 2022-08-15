@@ -9,7 +9,7 @@ function ProductCard({name, picture, price}: {name: string, picture:string, pric
       </div>
       <div className='bg-gray-300'>
         <Image className='p-1'src={picture} />
-        {<p className='text-right mr-2 text-lg font-bold'>${price}</p>}
+        <p className='text-right mr-2 text-lg font-bold'>${price}</p>
       </div>
     </section>
   )
