@@ -63,10 +63,10 @@ export default function Home() {
 
         <h2 className='text-center text-xl font-bold'>Latest Products</h2>
         <section className='grid grid-cols-2 md:grid-cols-4 '>
-          <ProductCard name={'Mudhoppers'} picture={'./images/shoe4.png'} price={'129.99'}/>
-          <ProductCard name={'Springsteppers'} picture={'./images/shoe2.png'} price={'149.99'}/>
-          <ProductCard name={'Trailblazers'} picture={'./images/mudskippers.png'} price={'179.99'}/>
-          <ProductCard name={'Jackrabbits'} picture={'./images/shoe3.png'} price={'149.99'}/>
+          <ProductCard name={'Mudhoppers'} picture={'/images/shoe4.png'} price={'129.99'}/>
+          <ProductCard name={'Springsteppers'} picture={'/images/shoe2.png'} price={'149.99'}/>
+          <ProductCard name={'Trailblazers'} picture={'/images/mudskippers.png'} price={'179.99'}/>
+          <ProductCard name={'Jackrabbits'} picture={'/images/shoe3.png'} price={'149.99'}/>
         </section>
 
         <h2 className='text-center text-xl font-bold'>Reviews</h2>
