@@ -5,7 +5,9 @@ const nextConfig = {
   images: {
     loader: "akamai",
     path: "",
-  }
+  },
+  basePath: "/Runners-Storefront-Page",
+  assetPrefix: "/Runners-Storefront-Page",
 }
 
 module.exports = nextConfig
