@@ -45,7 +45,9 @@ export default function Home() {
             <h1 className=' text-2xl text-white text-center'>Putting the world in motion</h1>
             <p className='text-white text-center p-5 lg:my-44 inline-block lg:align-middle'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro dolores ea.</p>
           </article>
-          <Image className="rotate-[23deg] object-contain sm: w-screen overflow-hidden" src='images/redRunnerMain.png'/>
+          <div className='relative bg-mainGold rounded-full '>
+            <Image layout='fill' className="rotate-[23deg] object-contain sm:w-screen overflow-hidden" src='images/redRunnerMain.png'/>
+          </div>
         </section>
         <h2 className='text-center text-xl font-bold'>Our Shoes</h2>
         <section className='bg-highRed md:bg-white m-6 p-3 rounded-md shadow-lg md:shadow-none md:flex shadow-gray-800' >
